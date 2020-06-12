@@ -1,7 +1,0 @@
-- name: fastpages: An easy to use blogging platform with support for Jupyter Notebooks.
-  uses: fastai/fastpages@v2.1.5
-  with:
-    # Either 'true' or 'false'.  Whether or not to commit converted markdown files from notebooks and word documents into the _posts directory in your repo.  This is useful for debugging.
-    BOOL_SAVE_MARKDOWN: # optional
-    # a ssh deploy key is required if BOOL_SAVE_MARKDOWN = 'true'
-    SSH_DEPLOY_KEY: # optional
